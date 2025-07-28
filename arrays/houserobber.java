@@ -6,7 +6,7 @@ class houserobber{
         }
        
         int ans2=arr[n]+newhelper(n-2,arr);
-        System.out.println("from ans 2: "+ans2+" ");
+        // System.out.println("from ans 2: "+ans2+" ");
         return ans2;
     }
     public static int helper(int n,int[] arr){
@@ -14,7 +14,7 @@ class houserobber{
             return 0;
         }
         int ans1=arr[n]+helper(n-2, arr);
-        System.out.println("from ans 1: "+ans1+" ");
+        // System.out.println("from ans 1: "+ans1+" ");
         return ans1;
       
     }

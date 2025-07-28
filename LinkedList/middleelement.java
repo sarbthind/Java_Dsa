@@ -17,7 +17,7 @@ public class middleelement {
             if(fast==null){
                 return slow;
             }
-            slow=slow.next;
+              slow=slow.next;
         }
 
         return slow;
