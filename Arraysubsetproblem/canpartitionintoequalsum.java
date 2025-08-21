@@ -43,6 +43,7 @@ public class canpartitionintoequalsum {
         for(List<Integer> subset: result){
             System.out.println(subset);
         }
+        sc.close();
 
     }
 }
